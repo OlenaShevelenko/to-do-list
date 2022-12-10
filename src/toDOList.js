@@ -26,7 +26,7 @@ class toDOList extends Component{
     deleteItem(){
             let listArray= this.state.toDoList;
             listArray = []
-            this.setState({toDOList: listArray})
+            this.setState({toDoList: listArray})
         }
     crossedWord(event){
             const li = event.target;
